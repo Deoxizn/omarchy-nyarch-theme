@@ -35,7 +35,9 @@ omarchy theme set nyarch
 | `backgrounds/2-archchan-hero-loop.mp4` | Animated version of the hero. 10 s loop, played natively by OWE in Omarchy 4.5. Pick it in the background picker (`Super + Ctrl + W`). |
 | `backgrounds/intros/0-archchan-hero.mp4` | Theme intro: plays on login and on theme switch, then settles on the still. |
 | `unlock.png` | Cat-ear star logo. Lock-screen badge and the Plymouth boot logo. |
-| `hyprland.conf` | Blue gradient active borders, 12 px rounding, blur. |
+| `hyprland.lua` / `hyprland.conf` | Baby-blue gradient active borders, 12 px rounding, blur, shadow. The `.lua` is dropped by `omarchy theme set` for git-installed themes, so the same border lives in `colors.toml` as `hyprland_active_border` and Omarchy renders it into its own `hyprland.lua`. |
+| `shell.toml` | Full Quickshell shell treatment: bar, popups, launcher, menu, notifications, lock. |
+| `.omarchy-theme.yml` | Gallery listing: `gallery: true`, category `novelty`. |
 | `shell.lock.toml` | Lock-screen colors. |
 | `btop.theme`, `icons.theme`, `keyboard.rgb` | btop colors, Yaru-blue icons, baby-blue keyboard RGB. |
 
@@ -102,6 +104,8 @@ repo.
 | Red | `#ff5c7a` |
 
 ## Notes
+
+- Model theme: [OldJobobo's Bloom Protocol](https://github.com/OldJobobo/omarchy-bloom-protocol-theme), the current 4.5 reference. Nyarch follows its layout: expanded `colors.toml`, `hyprland.lua` + `hyprland.conf`, full `shell.toml`, `.omarchy-theme.yml`.
 
 - "Quattro" is Omarchy 4.0's codename, not four theme variants. This is one
   theme for Quattro / Quattro RS (4.5).

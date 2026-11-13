@@ -3,11 +3,11 @@
 # baby blue on black. Not affiliated with Nyarch Linux.
 # Palette frozen from the Nyarch Assistant art: near-black UI (#121315),
 # navy surfaces (#2c3949), pale baby blue (#c6e2e3), bright blue trim.
+# Extra keys follow the Bloom Protocol 4.5 model: border tokens, ANSI
+# color0-15 block, and signal/data slots, so templates and terminals that
+# read beyond the 26 semantic keys still get Nyarch colours.
 mode = "dark"
-
-accent = "#7cc7e8"
-selection = "#1e3a4a"
-muted = "#5a6b76"
+theme_type = "dark"
 
 background = "#12161a"
 dark_background = "#0d1114"
@@ -19,6 +19,13 @@ dark_foreground = "#7a8f99"
 light_foreground = "#e8f4f7"
 bright_foreground = "#f2fbff"
 
+accent = "#7cc7e8"
+active_border_color = "#7cc7e8"
+selection = "#1e3a4a"
+selection_background = "#1e3a4a"
+selection_foreground = "#e8f4f7"
+muted = "#5a6b76"
+
 red = "#ff5c7a"
 yellow = "#ffd479"
 orange = "#ff9e64"
@@ -26,6 +33,7 @@ green = "#7ddba3"
 cyan = "#7cc7e8"
 blue = "#4da3d8"
 magenta = "#c084fc"
+purple = "#c084fc"
 brown = "#8a6d5c"
 
 bright_red = "#ff8fa3"
@@ -34,3 +42,30 @@ bright_green = "#9be8c0"
 bright_cyan = "#a5dcf5"
 bright_blue = "#8ec9ee"
 bright_magenta = "#d8b4fe"
+bright_purple = "#d8b4fe"
+
+warning = "#ffd479"
+success = "#7ddba3"
+signal = "#7cc7e8"
+data = "#7a8f99"
+border = "#2c3949"
+
+hyprland_active_border = "rgba(7cc7e8ff) rgba(4da3d8ff) 45deg"
+hyprland_inactive_border = "#2c3949"
+
+color0 = "#12161a"
+color1 = "#ff5c7a"
+color2 = "#7ddba3"
+color3 = "#ffd479"
+color4 = "#4da3d8"
+color5 = "#c084fc"
+color6 = "#7cc7e8"
+color7 = "#d6e8ec"
+color8 = "#5a6b76"
+color9 = "#ff8fa3"
+color10 = "#9be8c0"
+color11 = "#ffe08a"
+color12 = "#8ec9ee"
+color13 = "#d8b4fe"
+color14 = "#a5dcf5"
+color15 = "#f2fbff"
