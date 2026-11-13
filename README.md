@@ -34,7 +34,7 @@ omarchy theme set nyarch
 | `backgrounds/1-neko-rooftop.jpg` | Second still: rooftop, laptop, neon city. |
 | `backgrounds/2-archchan-hero-loop.mp4` | Animated version of the hero. 10 s loop, played natively by OWE in Omarchy 4.5. Pick it in the background picker (`Super + Ctrl + W`). |
 | `backgrounds/intros/0-archchan-hero.mp4` | Theme intro: plays on login and on theme switch, then settles on the still. |
-| `unlock.png` | Cat-ear star logo. Lock-screen badge and the Plymouth boot logo. |
+| `unlock.png` | Waifu portrait badge: catgirl with baby-blue headphones, circular crop. Lock-screen badge and the Plymouth boot logo. |
 | `hyprland.lua` / `hyprland.conf` | Animated gradient border: the border angle rotates baby blue -> lavender on a loop (signaldirective pattern), plus 12 px rounding, blur, shadow. The `.lua` is dropped by `omarchy theme set` for git-installed themes, so it only applies on a local install or merged into your own `hyprland.lua`; the same border lives in `colors.toml` as `hyprland_active_border` and Omarchy renders it statically. |
 | `backgrounds/SOURCES.json` | Provenance + SHA-256 for every generated wallpaper, loop, intro, and logo. |
 | `docs/animated-background.md` | Loop specs, picker commands, and the long-loop trick for seam stutter. |

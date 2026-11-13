@@ -24,8 +24,8 @@
     },
     {
       "path": "unlock.png",
-      "sha256": "885bb398f946e35331a2fcb519d4fa1813ad2ff18ba5040e6d1f6e5ef5567cda",
-      "bytes": 43657
+      "sha256": "74f0a81636c4ca23672b18a1d7e841cd0fc4797b69e9b11515832016dafabe7a",
+      "bytes": 326868
     },
     {
       "path": "preview.png",
@@ -34,8 +34,8 @@
     },
     {
       "path": "preview-unlock.png",
-      "sha256": "9ae90fb8e8820ec2b285c22c43e3a0f75f277dfe26473789d47f517b83ad7ab1",
-      "bytes": 42990
+      "sha256": "ecb6e272f7e33155bd8335d13fdd0920ab9d5ab831c035eb0bbc6d39299ebd2e",
+      "bytes": 301482
     }
   ]
 }
