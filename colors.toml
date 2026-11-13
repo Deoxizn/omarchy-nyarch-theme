@@ -20,6 +20,7 @@ light_foreground = "#e8f4f7"
 bright_foreground = "#f2fbff"
 
 accent = "#7cc7e8"
+cursor = "#e8f4f7"
 active_border_color = "#7cc7e8"
 selection = "#1e3a4a"
 selection_background = "#1e3a4a"
@@ -50,7 +51,7 @@ signal = "#7cc7e8"
 data = "#7a8f99"
 border = "#2c3949"
 
-hyprland_active_border = "rgba(7cc7e8ff) rgba(4da3d8ff) 45deg"
+hyprland_active_border = "rgba(7cc7e8ff) rgba(4da3d8ff) rgba(c084fcff) 45deg"
 hyprland_inactive_border = "#2c3949"
 
 color0 = "#12161a"

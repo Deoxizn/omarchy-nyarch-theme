@@ -1,0 +1,41 @@
+{
+  "theme": "nyarch",
+  "note": "All art in this repo is original, generated for this theme. Not Nyarch Linux assets, not scraped fan art.",
+  "files": [
+    {
+      "path": "backgrounds/0-archchan-hero.jpg",
+      "sha256": "de818334a8daf2e306d08b4ded4159ba65062d31c954c4dc1da66892388605fc",
+      "bytes": 494336
+    },
+    {
+      "path": "backgrounds/1-neko-rooftop.jpg",
+      "sha256": "93fa41b27aa7a08157cf3130e26b601e2302d371ab1f1b40b9cb0cd2ae5cbe42",
+      "bytes": 613580
+    },
+    {
+      "path": "backgrounds/2-archchan-hero-loop.mp4",
+      "sha256": "9309cafdd09d364130d94a30855acfd73dc8337d87dae6f8ceda222cfd252238",
+      "bytes": 4985195
+    },
+    {
+      "path": "backgrounds/intros/0-archchan-hero.mp4",
+      "sha256": "5c21baf6c8ee653ad225a9c8de53f7adbb9303153d1a01d7e8b85bc58a86e840",
+      "bytes": 2040787
+    },
+    {
+      "path": "unlock.png",
+      "sha256": "885bb398f946e35331a2fcb519d4fa1813ad2ff18ba5040e6d1f6e5ef5567cda",
+      "bytes": 43657
+    },
+    {
+      "path": "preview.png",
+      "sha256": "229573c7477c958bac79712f0afe828b223f4d9560d604343ccdcb8ecdeede68",
+      "bytes": 1158413
+    },
+    {
+      "path": "preview-unlock.png",
+      "sha256": "9ae90fb8e8820ec2b285c22c43e3a0f75f277dfe26473789d47f517b83ad7ab1",
+      "bytes": 42990
+    }
+  ]
+}

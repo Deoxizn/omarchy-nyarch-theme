@@ -39,9 +39,15 @@ selection-fill-alpha = 0.32
 [spacing]
 scale = 1.0
 scale-with-font = true
+xs = 2
+md = 4
+control-padding-y = 5
+panel-padding = 10
 
 [font]
 base-size = 12
+heading = 16
+icon-large = 18
 
 [popups]
 background = "#1c2329"
@@ -123,6 +129,8 @@ selection = "#7cc7e8"
 selection-alpha = 0.4
 
 [image-picker]
+scrim = "#12161a"
+scrim-alpha = 0.52
 text = "#d6e8ec"
 selected-border = "#7cc7e8"
 selected-border-alpha = 1.0
