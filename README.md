@@ -107,20 +107,6 @@ repo.
 | Lavender | `#c084fc` |
 | Red | `#ff5c7a` |
 
-## Notes
-
-- Model themes: [OldJobobo's Bloom Protocol](https://github.com/OldJobobo/omarchy-bloom-protocol-theme) for the 4.5 layout, [HANCORE's themes](https://github.com/HANCORE-linux) for the maximal `colors.toml`/`shell.toml` compat keys and the long-loop trick, [signaldirective's Grand Theft Omarchy](https://github.com/signaldirective/grand-theft-omarchy) for the animated borderangle loop.
-
-- "Quattro" is Omarchy 4.0's codename, not four theme variants. This is one
-  theme for Quattro / Quattro RS (4.5).
-- Nyarch itself has no fixed palette; its Material UwU theming generates
-  colors from the wallpaper. This palette is frozen from the Nyarch
-  Assistant art, baby blue on black, and labeled as such.
-- The Arch logo is trademarked and Nyarch's cat-eared variant inherits
-  that, so the logo here is an original cat-ear star mark, not theirs.
-- No `neovim.lua` / `vscode.json` are shipped on purpose: Omarchy strips
-  those from git-installed themes and regenerates them from `colors.toml`.
-
 ## License
 
 MIT. See `LICENSE`.
