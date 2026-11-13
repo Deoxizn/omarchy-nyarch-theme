@@ -4,7 +4,7 @@ Nyarch Linux, as an Omarchy theme. Quattro / 4.5.
 
 The meme distro, minus the distro: baby blue on black, after the Nyarch
 Assistant / Arch-chan art. Near-black UI, navy surfaces, pale baby-blue
-foreground, bright blue trim. Waifu wallpapers included, animated ones too.
+foreground, bright blue trim. Waifu wallpapers included, animated ones too. All four stills and the unlock badge share one original character: black hair, blue eyes, cat ears, navy hoodie with baby-blue trim, baby-blue headphones. She is our own take on the Arch-chan idea, not Nyarch's art.
 
 Inspired by [Nyarch Linux](https://nyarchlinux.moe/). Not affiliated with
 Nyarch Linux, Arch Linux, or Omarchy. All wallpapers and the logo in this
@@ -32,6 +32,8 @@ omarchy theme set nyarch
 | `colors.toml` | The whole palette. Baby blue `#7cc7e8` accent on `#12161a` black. Drives terminals, Hyprland, btop, and the Quickshell shell. |
 | `backgrounds/0-archchan-hero.jpg` | Hero still: catgirl under a pale blue moon, neon city, sakura. |
 | `backgrounds/1-neko-rooftop.jpg` | Second still: rooftop, laptop, neon city. |
+| `backgrounds/2-sakura-day.jpg` | Third still: sakura tree in daylight, headphones, laptop. |
+| `backgrounds/3-neon-rain.jpg` | Fourth still: rainy neon street, clear umbrella, headphones. |
 | `backgrounds/2-archchan-hero-loop.mp4` | Animated version of the hero. 10 s loop, played natively by OWE in Omarchy 4.5. Pick it in the background picker (`Super + Ctrl + W`). |
 | `backgrounds/intros/0-archchan-hero.mp4` | Theme intro: plays on login and on theme switch, then settles on the still. |
 | `unlock.png` | Waifu portrait badge: catgirl with baby-blue headphones, circular crop. Lock-screen badge and the Plymouth boot logo. |

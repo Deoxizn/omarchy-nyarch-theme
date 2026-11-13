@@ -13,6 +13,16 @@
       "bytes": 613580
     },
     {
+      "path": "backgrounds/2-sakura-day.jpg",
+      "sha256": "814274876af8ac529f10c1d9a4b60297ae76fed1e7467660887da3e5fcdfa290",
+      "bytes": 601633
+    },
+    {
+      "path": "backgrounds/3-neon-rain.jpg",
+      "sha256": "b8ac0ab9796d096177a716465a8963c2e89675bada2474ff6e209d5b84a3ba71",
+      "bytes": 519413
+    },
+    {
       "path": "backgrounds/2-archchan-hero-loop.mp4",
       "sha256": "9309cafdd09d364130d94a30855acfd73dc8337d87dae6f8ceda222cfd252238",
       "bytes": 4985195
