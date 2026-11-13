@@ -1,0 +1,36 @@
+# nyarch — Omarchy theme (Quattro / 4.5)
+# Inspired by Nyarch Linux and its Arch-chan / Nyarch Assistant waifu:
+# baby blue on black. Not affiliated with Nyarch Linux.
+# Palette frozen from the Nyarch Assistant art: near-black UI (#121315),
+# navy surfaces (#2c3949), pale baby blue (#c6e2e3), bright blue trim.
+mode = "dark"
+
+accent = "#7cc7e8"
+selection = "#1e3a4a"
+muted = "#5a6b76"
+
+background = "#12161a"
+dark_background = "#0d1114"
+darker_background = "#090c0e"
+lighter_background = "#1c2329"
+
+foreground = "#d6e8ec"
+dark_foreground = "#7a8f99"
+light_foreground = "#e8f4f7"
+bright_foreground = "#f2fbff"
+
+red = "#ff5c7a"
+yellow = "#ffd479"
+orange = "#ff9e64"
+green = "#7ddba3"
+cyan = "#7cc7e8"
+blue = "#4da3d8"
+magenta = "#c084fc"
+brown = "#8a6d5c"
+
+bright_red = "#ff8fa3"
+bright_yellow = "#ffe08a"
+bright_green = "#9be8c0"
+bright_cyan = "#a5dcf5"
+bright_blue = "#8ec9ee"
+bright_magenta = "#d8b4fe"

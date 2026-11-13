@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# nyarch-fetch — SFW waifu wallpaper fetcher.
+# Stand-in for Nyarch's Catgirl / Waifu Downloader. SFW only, always:
+# waifu.im is queried with is_nsfw=false, so nothing NSFW is ever fetched.
+#   ./extras/nyarch-fetch [tag] [count]    e.g. ./extras/nyarch-fetch maid 5
+# Tags are waifu.im SFW tags: waifu, maid, marin-kitagawa, mori-calliope,
+# oppai, raiden-shogun, selfies, uniform, kamisato-ayaka.
+set -euo pipefail
+TAG="${1:-waifu}"
+COUNT="${2:-5}"
+OUT="${HOME}/.config/omarchy/backgrounds/nyarch"
+mkdir -p "$OUT"
+command -v curl >/dev/null || { echo "curl is required" >&2; exit 1; }
+command -v jq >/dev/null || { echo "jq is required" >&2; exit 1; }
+echo "fetching ${COUNT} SFW '${TAG}' wallpapers from waifu.im -> ${OUT}"
+for i in $(seq 1 "$COUNT"); do
+  url=$(curl -fsSL "https://api.waifu.im/search/?included_tags=${TAG}&is_nsfw=false" \
+    | jq -r '.images[0].url')
+  [[ -z "$url" || "$url" == "null" ]] && { echo "no image returned, stopping" >&2; exit 1; }
+  file="${OUT}/nyarch-${TAG}-$(date +%s)-${i}.${url##*.}"
+  file="${file%%\?*}"
+  curl -fsSL -o "$file" "$url"
+  echo "  saved $(basename "$file")"
+  sleep 1
+done
+echo "done. Pick them in the background picker (Super + Ctrl + W)."
